@@ -1,0 +1,109 @@
+.parent {
+  
+  
+  background-color:linear-gradient(to bottom, #201715, #feb47b);
+  padding: 30px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row; /* horizontal direction */
+  flex-wrap: wrap;
+}
+
+.card{
+    height:450px;
+    width: 300px;
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.card .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top img{
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
+    border: 2px solid #f0eaea;
+}
+.top button{
+    display: flex;
+    align-items: center;
+    border: 1px solid #f0eaea;
+    padding: 4px 8px;
+    border-radius: 5px;
+    gap: 3px;
+    background-color: transparent;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #b1b1b1;
+    padding-top:  15px 0px;
+}
+.center {
+    background-color: rgb(166, 166, 161);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+}
+.center h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.center  span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #926060;
+}
+.center h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.center .tag{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.center .tag h4{
+    background-color: #4a2e2e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px 8px;
+}
+.bottom .left div{
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.bottom button{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1b1717;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #1b1717;
+    background-color: transparent;
+
+}
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #554848, #f8fafc);
+  
+}
